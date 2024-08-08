@@ -27,5 +27,6 @@ public class Move : MonoBehaviour
         Vector3 movement = new Vector3(x, y, 0f);
         rb.velocity = movement * moveSpeed;
         ////gygyguugug 
+        ///huuggurgfrugu
     }
 }
