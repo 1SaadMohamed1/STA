@@ -6,7 +6,7 @@ public class Move : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
     [SerializeField] Rigidbody2D rb;
-    float move;
+    float mmove;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +23,15 @@ public class Move : MonoBehaviour
     {
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
+        
 
         Vector3 movement = new Vector3(x, y, 0f);
         rb.velocity = movement * moveSpeed;
         //new 
         ///Edix.system
+    }
+    void jumb()
+    {
+
     }
 }
