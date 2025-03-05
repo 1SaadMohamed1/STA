@@ -8,6 +8,8 @@ TagManager:
   - Car
   - Hat
   - Youssef
+  - Ball
+  - Belall
   layers:
   - Default
   - TransparentFX
